@@ -1,6 +1,6 @@
 ### BASIC WEBPACK CONFIGURATION
 
-### sOME USEFUL SCRIPTS
+### SOME USEFUL SCRIPTS
 
 #### npm run build
   This will build the 'dist' dicrectory
