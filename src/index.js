@@ -1,9 +1,12 @@
-import greet from "./greet.js";
-import "./styles/main.scss";
-import laughing from "./assets/laughing.svg";
+// DEMO JOKE APP
+import generateJoke from './generateJoke'
+import './styles/main.scss'
+import laughing from './assets/laughing.svg'
 
-const laughImg = document.getElementById("laughImg");
-laughImg.src = laughing;
+const laughImg = document.getElementById('laughImg')
+laughImg.src = laughing
 
-const greetMessage = greet("Abhishek");
-console.log(greetMessage);
+const jokeBtn = document.getElementById('jokeBtn')
+jokeBtn.addEventListener('click', generateJoke)
+
+generateJoke()
